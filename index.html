@@ -1,19 +1,11 @@
 ---
-layout: default
-title: myblog
+layout:default
+title:myblog
 ---
 <h2>{{ page.title }}</h2>
 <p>×îĞÂÎÄÕÂ</p>
 <ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
-<ul>
-<ul>
-{{site.posts}}
 {% for post in site.posts %} 
-
-¡¡¡¡¡¡¡¡¡¡¡¡<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-
+<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
