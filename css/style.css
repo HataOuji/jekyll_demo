@@ -37,3 +37,16 @@ color: #888888;
 font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
 margin-top: -36px;
 }
+article{
+	margin:0 auto;
+	margin-top:10px;
+	border:1px solid none;
+	width:70%;
+}
+header h1 a{
+	font-size:40px;
+}
+header p{
+	font-size:20px;
+	color:silver;
+}
