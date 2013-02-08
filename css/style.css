@@ -26,12 +26,6 @@ float: left;
 padding-right: 5%;
 width: 100%;
 }
-a { 
-color: #113355;
-font-weight: 700;
-text-decoration: none;
-transition: color 0.2s cubic-bezier(0, 0, 0.58, 1) 0;
-}
 article header .date { 
 color: silver;
 }
@@ -40,6 +34,9 @@ article{
 	border:1px solid none;
 	width:70%;
 	font-family: "PT Serif", "Georgia", "Times", "Times New Roman", serif;
+}
+article .entry{
+	margin-top:10px;
 }
 header h1 a{
 	font-size:40px;
