@@ -39,7 +39,10 @@ article{
 	font-family: "PT Serif", "Georgia", "Times", "Times New Roman", serif;
 }
 article .entry{
-	margin-top:10px;
+	margin-top:30px;
+	font-size: 20px;
+	line-height: 2em;
+	color: #2C3437;
 }
 header h1 a{
 	font-size:40px;
@@ -52,4 +55,8 @@ header p{
 	margin-right:3px;
 	float:left;
 	list-style: none outside none;
+	font-size: 0.8em;
+}
+.tags li a{
+	color: #2C3437;
 }
