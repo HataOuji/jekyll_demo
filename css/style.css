@@ -49,7 +49,7 @@ header p{
 	color:silver;
 }
 .tags li{ 
-	margin-left:3px;
+	margin-right:3px;
 	float:left;
 	list-style: none outside none;
 }
