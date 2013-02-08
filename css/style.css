@@ -17,7 +17,9 @@
 	font-weight:bold;
 	margin:20px;
 }
-
+a{
+	text-decoration: none;
+}
 article,header,section{
 	display:block;
 }
@@ -44,4 +46,7 @@ header h1 a{
 header p{
 	font-size:20px;
 	color:silver;
+}
+.tags li { 
+list-style: none outside none;
 }
