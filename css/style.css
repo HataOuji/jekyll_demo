@@ -1,0 +1,39 @@
+*{		
+	margin:0;
+	padding:0;
+}
+.head{
+	margin:0;
+	height:80px;
+	line-height:80px;
+	width:100%;
+	color:white;
+	border:none;
+	background-color:#121212;
+}
+#title{
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:30px;
+	font-weight:bold;
+	margin:20px;
+}
+
+article,header,section{
+	display:block;
+}
+section.content{ 
+float: left;
+padding-right: 5%;
+width: 100%;
+}
+a { 
+color: #113355;
+font-weight: 700;
+text-decoration: none;
+transition: color 0.2s cubic-bezier(0, 0, 0.58, 1) 0;
+}
+article header .date { 
+color: #888888;
+font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+margin-top: -36px;
+}
