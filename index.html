@@ -6,7 +6,7 @@ title: 我的Blog
 <article>
 {% for post in site.posts %} 
 <header>
-	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	<h1><a href="{{ site.baseurl }}{{ post.url }}" target="_blank"></h1>
 	<p class="date">{{ post.date | date_to_string }}</p>
 </header>
 
@@ -20,7 +20,6 @@ title: 我的Blog
 		{% endfor %}
 	</ul>
 </section>
-<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a></li>
 
 {% endfor %}
 </article>
