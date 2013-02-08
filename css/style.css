@@ -33,13 +33,13 @@ article header .date {
 color: silver;
 }
 article{
-	margin:30px auto;
-	border:1px solid none;
+	margin:50px auto;
+	border:none;
 	width:70%;
 	font-family: "PT Serif", "Georgia", "Times", "Times New Roman", serif;
 }
 article .entry{
-	margin-top:30px;
+	margin-top:15px;
 	font-size: 20px;
 	line-height: 2em;
 	color: #2C3437;
