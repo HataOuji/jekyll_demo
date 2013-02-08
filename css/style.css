@@ -48,9 +48,7 @@ header p{
 	font-size:20px;
 	color:silver;
 }
-.tags ul{
+.tags li{ 
 	float:left;
-}
-.tags li { 
-list-style: none outside none;
+	list-style: none outside none;
 }
