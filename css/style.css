@@ -2,9 +2,6 @@
 	margin:0;
 	padding:0;
 }
-body{
-	font-family:"微软雅黑";
-}
 .head{
 	margin:0;
 	height:80px;
@@ -15,6 +12,7 @@ body{
 	background-color:#121212;
 }
 #title{
+	font-family:"微软雅黑";
 	font-size:30px;
 	font-weight:bold;
 	margin:20px;
@@ -41,6 +39,7 @@ article{
 	margin:30px auto;
 	border:1px solid none;
 	width:70%;
+	font-family: "PT Serif", "Georgia", "Times", "Times New Roman", serif;
 }
 header h1 a{
 	font-size:40px;
