@@ -62,12 +62,18 @@ header p{
 }
 .post{
 	text-align:center;
+	margin: 20px auto;
+	width: 60%;
 	font-family: "PT Serif", "Georgia", "Times", "Times New Roman", serif;
 }
+.title{
+	font-family:"微软雅黑";
+	font-size:30px;
+	font-weight:bold;
+	line-height:50px;
+}
 .content{
-	margin: 0px auto;
 	text-align: left;
-	width: 60%;
 	line-height:30px;
 }
 .date{
