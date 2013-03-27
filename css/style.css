@@ -19,7 +19,6 @@
 }
 a{
 	text-decoration: none;
-	--color: #0066AA;
 }
 article,header,section{
 	display:block;
@@ -62,5 +61,10 @@ header p{
 	color: #2C3437;
 }
 .post{
-margin:0 auto;
+	text-align:center;
+	font-family: "PT Serif", "Georgia", "Times", "Times New Roman", serif;
+}
+.content{
+	color:white;
+	background-color:#121212;
 }
