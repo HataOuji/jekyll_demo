@@ -63,8 +63,10 @@ header p{
 .post{
 	text-align:center;
 	margin: 20px auto;
-	width: 60%;
+	width: 70%;
 	font-family: "PT Serif", "Georgia", "Times", "Times New Roman", serif;
+	border:solid;
+	padding:15px;
 }
 .title{
 	font-family:"微软雅黑";
