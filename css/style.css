@@ -65,6 +65,11 @@ header p{
 	font-family: "PT Serif", "Georgia", "Times", "Times New Roman", serif;
 }
 .content{
-	color:white;
-	background-color:#121212;
+	margin: 0px auto;
+	text-align: left;
+	width: 60%;
+	line-height:30px;
+}
+.date{
+	text-align:right;
 }
